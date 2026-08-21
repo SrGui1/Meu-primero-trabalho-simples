@@ -1,0 +1,234 @@
+<html>
+    <head>
+        <title>Minha tabela</title>
+            <meta charset="UTC-8">
+            <body>
+               <style>
+                body{
+                    background-color: rgb(248, 255, 253);
+                }
+                a :hover{
+                    text-decoration: underline;
+                    color:rgb(7, 7, 160)
+                }
+                a{
+                    text-transform: none;
+                    color: rgb(166, 157, 175);
+                }
+               </style>
+
+                <h1>Tema</h1>
+
+
+                <h2>Sub coisas</h2>
+                <h2>Mais enrrolação</h2>
+                <h2>Mais enrrolação</h2>
+                <h2>Mais enrrolação</h2>
+                <h2>Mais enrrolação</h2>
+
+
+                <table border="4"> 
+
+                <tr bgcolor="aquarine" style="color: rgb(12, 12, 14);">   
+                    <td>Titulo1</td>
+                    <td>Titulo2</td>
+                    <td>Titulo3</td>
+                    <td>Titulo4</td>
+                    <td>Titulo5</td>
+                    <td>Titulo6</td>
+                </tr>
+
+                  <tr>   
+                    <th>pp</th>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <th>pp</th>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <th>pp</th>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <th>pp</th>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <th>pp</th>
+                    <td>pp</td>
+                    <th>pp</th>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <th>pp</th>
+                    <td>pp</td>
+                    <th>pp</th>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <th>pp</th>
+                    <th>pp</th>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <th>pp</th>
+                    <td>pp</td>
+                    <th>pp</th>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <th>pp</th>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                 </tr>
+                </table>
+
+                <a href="#">
+                    Link 
+                </a>
+
+                <table border="4">
+
+                  <tr bgcolor="aquarine" style="color: rgb(12, 12, 14);">   
+
+                    <td>Titulo1</td>
+                    <td>Titulo2</td>
+                    <td>Titulo3</td>
+                    <td>Titulo4</td>
+                    <td>Titulo5</td>
+                    <td>Titulo6</td>
+                    
+                  </tr>
+                  <tr>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+
+                  <tr>   
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                    <td>pp</td>
+                </tr>
+                </table>
+
+                  <tr>   
+                    <td colspan="6" align="center"><a href="Site que eu escolher meu ou ja existente" target="_blank">pp</td>
+                </tr>
+                <table border="4">
+                    <td>
+                    <img src="Sua imagem" width="300">
+                </td> 
+                </table>
+                </tr> 
+                </table>
+            </body>
+
+    </head>
+</html>
