@@ -1,246 +1,259 @@
 <html>
     <head>
-    <meta charset="UTF-8">
-    <title>Minha tabela</title>
-    
-    <style>
-        body {
-            background-color: #121214;
-            color: #E1E1E6;
-        }
+         <meta charset="UTC-8">
+        <title>Minha tabela</title>
+           
+            <style>
+                body{
+                    color: #fafafc;
+                    background-color: #121214
+                }
+                td{
+                  color:#3F3F46;
+                }
+                th, td{
+                  color: #fafafc;
+                }
+                
+            a:hover {
+                text-decoration: underline;
+                color: rgb(141, 100, 235);
+                font-size: 20px;
+                
+            }
+           
+                table{
+                    border: 4px solid #3F3F46;
+                    background-color: #1E1E24;
+                    border-collapse: collapse;
+                    width: 100%;
+                    margin-bottom: 20px;
+                    
+                }
+                
+                
+               </style>
+               </head>
+            <body>
+    <ul><h1>Bem-vindo ao Jogos em Foco</h1></ul>
+            
+<p>Este site foi criado para explorar os títulos mais populares do universo dos games, reunindo dados e estatísticas em um só lugar.</p>
 
-        a:hover {
-            text-decoration: underline;
-            color: rgb(141, 100, 235);
-            font-size: 20px;
-        }
+<ul><h2>O Objetivo do Projeto</h2></ul>
+<p >Aqui você vai encontrar um guia prático com informações essenciais sobre os jogos que definiram a indústria, desde clássicos inesquecíveis até os maiores sucessos atuais.</p>
 
-        table {
-            border: 4px solid #3F3F46;
-            background-color: #1E1E24;
-            border-collapse: collapse;
-            width: 100%;
-            margin-bottom: 20px;
-        }
+<ul><h2>O Que Você Vai Encontrar Aqui</h2></ul>
+<p>Nossa página conta com uma tabela detalhada comparando os jogos mais famosos por gênero, ano de lançamento, plataformas disponíveis e recepção do público.</p>
 
-        th, td {
-            border: 1px solid #3F3F46;
-            padding: 8px;
-            text-align: center;
-        }
+<ul><h2>Feito de Fã para Fã</h2></ul>
+<p>O conteúdo é organizado de forma simples para ajudar você a descobrir novas franquias, comparar dados e entender o que faz desses títulos grandes fenômenos.</p>
 
-        th {
-            background-color: #3F3F46;
-            color: #FFFFFF;
-        }
-    </style>
-</head>
-<body>
+<ul><h2>Como Usar Nossas Tabelas</h2></ul>
+<p>Basta navegar pelas colunas da tabela abaixo para filtrar os dados por plataforma, ano ou nota, facilitando sua busca pela próxima jogatina.</p>
+<hr>
+    <br>
 
-    <h1>Bem-vindo ao Jogos em Foco</h1>
-    <p>Este site foi criado para explorar os títulos mais populares do universo dos games, reunindo dados e estatísticas em um só lugar.</p>
+                <table border="4" width="1000">
 
-    <h2>O Objetivo do Projeto</h2>
-    <p>Aqui você vai encontrar um guia prático com informações essenciais sobre os jogos que definiram a indústria, desde clássicos inesquecíveis até os maiores sucessos atuais.</p>
+                <tr></tr>   
+                   <th bgcolor="#3F3F46">Logo</th>
+                   <th bgcolor="#3F3F46">Jogos</th>
+                    <th bgcolor="#3F3F46">Gênero</th>
+                    <th bgcolor="#3F3F46">Ano de lançamento</th>
+                    <th bgcolor="#3F3F46">Plataforma</th>
+                    <th bgcolor="#3F3F46">Nota de 0 a 10</th>
+                    <th bgcolor="#3F3F46">Online ou Offline</th>
+                </tr>
 
-    <h2>O Que Você Vai Encontrar Aqui</h2>
-    <p>Nossa página conta com uma tabela detalhada comparando os jogos mais famosos por gênero, ano de lançamento, plataformas disponíveis e recepção do público.</p>
+                  <tr>   
+                    <th><img src="Robloxfoto.jpg" width="60"></th>
+                    <th>Roblox</th>
+                    <td>Sandbox</td>
+                    <td>1º de setembro de 2006</td>
+                    <td>PC e Celular</td>
+                    <th>7,5</th>
+                    <td>Online</td>
+                </tr>
 
-    <h2>Feito de Fã para Fã</h2>
-    <p>O conteúdo é organizado de forma simples para ajudar você a descobrir novas franquias, comparar dados e entender o que faz desses títulos grandes fenômenos.</p>
+                  <tr>   
+                    <th><img src ="minecraftfoto.jpg" width="60"></th>
 
-    <h2>Como Usar Nossas Tabelas</h2>
-    <p>Basta navegar pelas colunas da tabela abaixo para filtrar os dados por plataforma, ano ou nota, facilitando sua busca pela próxima jogatina.</p>
-    
-    <hr>
+                       <th>Minecraft</th>
+                    <td>Sandbox / Sobrevivência</td>
+                    <td>17 de maio de 2009</td>
+                    <td>Multi plataforma</td>
+                    <th>9.0</th>
+                    <td>Online e Offline</td>
+                </tr>
 
-    <h2>Principais Jogos</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Logo</th>
-                <th>Jogos</th>
-                <th>Gênero</th>
-                <th>Ano de Lançamento</th>
-                <th>Plataforma</th>
-                <th>Nota (0 a 10)</th>
-                <th>Modo</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="Robloxfoto.jpg" alt="Roblox" width="60"></td>
-                <td><strong>Roblox</strong></td>
-                <td>Sandbox</td>
-                <td>1º de setembro de 2006</td>
-                <td>PC e Celular</td>
-                <td>7,5</td>
-                <td>Online</td>
-            </tr>
-            <tr>
-                <td><img src="minecraftfoto.jpg" alt="Minecraft" width="60"></td>
-                <td><strong>Minecraft</strong></td>
-                <td>Sandbox / Sobrevivência</td>
-                <td>17 de maio de 2009</td>
-                <td>Multiplataforma</td>
-                <td>9,0</td>
-                <td>Online e Offline</td>
-            </tr>
-            <tr>
-                <td><img src="gtafoto.jpg" alt="GTA V" width="70"></td>
-                <td><strong>GTA V</strong></td>
-                <td>Ação e Mundo Aberto</td>
-                <td>17 de setembro de 2013</td>
-                <td>PC e Console</td>
-                <td>9,7</td>
-                <td>Online e Offline</td>
-            </tr>
-            <tr>
-                <td><img src="fFOTO.jpg" alt="Fortnite" width="70"></td>
-                <td><strong>Fortnite</strong></td>
-                <td>Battle Royale</td>
-                <td>25 de julho de 2017</td>
-                <td>Multiplataforma</td>
-                <td>8,0</td>
-                <td>Online</td>
-            </tr>
-            <tr>
-                <td><img src="zeladafoto.jpg" alt="The Legend of Zelda" width="60"></td>
-                <td><strong>The Legend of Zelda</strong></td>
-                <td>Aventura / RPG</td>
-                <td>21 de novembro de 1998</td>
-                <td>Nintendo</td>
-                <td>9,9</td>
-                <td>Offline</td>
-            </tr>
-            <tr>
-                <td><img src="tetrisfoto.jpg" alt="Tetris" width="70"></td>
-                <td><strong>Tetris</strong></td>
-                <td>Puzzle</td>
-                <td>6 de junho de 1984</td>
-                <td>Multiplataforma</td>
-                <td>9,5</td>
-                <td>Offline</td>
-            </tr>
-        </tbody>
-    </table>
+                  <tr>   
+                    <th><img src ="gtafoto.jpg" width="70"></th>
+                    <th>(GTA V)</th>
+                    <td>Ação e Mundo Aberto</td>
+                    <td>17 de setembro de 2013</td>
+                    <td>Pc e console</td>
+                    <td>9.7</td>
+                    <td>Online e Offline</td>
+                </tr>
 
-    <h2>Jogos Indies Famosos</h2>
+                  <tr>   
+                    <th><img src="fFOTO.jpg" width="70"></th>
+                    <th>Fortnite</th>
+                    <td>Barttle Royale</td>
+                    <td>25 de julho de 2017</td>
+                    <td>Multi plataforma</td>
+                    <td>8.0</td>
+                    <th>online</th>
+                </tr>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Jogo</th>
-                <th>Gênero</th>
-                <th>Ano de Lançamento</th>
-                <th>Plataforma</th>
-                <th>Modo</th>
-                <th>Nota (0 a 10)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Hollow Knight</strong></td>
-                <td>Metroidvania / Ação</td>
-                <td>24 de fevereiro de 2017</td>
-                <td>Multiplataforma</td>
-                <td>Offline</td>
-                <td>9,0</td>
-            </tr>
-            <tr>
-                <td><strong>Stardew Valley</strong></td>
-                <td>Simulador de Fazenda / RPG</td>
-                <td>26 de fevereiro de 2016</td>
-                <td>Multiplataforma</td>
-                <td>Offline e Online</td>
-                <td>8,9</td>
-            </tr>
-            <tr>
-                <td><strong>Hades</strong></td>
-                <td>Roguelike / Ação</td>
-                <td>17 de setembro de 2020</td>
-                <td>Consoles e PC</td>
-                <td>Offline</td>
-                <td>9,4</td>
-            </tr>
-            <tr>
-                <td><strong>Dead Cells</strong></td>
-                <td>Roguelite / Metroidvania</td>
-                <td>7 de agosto de 2018</td>
-                <td>Multiplataforma</td>
-                <td>Offline</td>
-                <td>8,9</td>
-            </tr>
-            <tr>
-                <td><strong>Cuphead</strong></td>
-                <td>Run and Gun / Ação</td>
-                <td>29 de setembro de 2017</td>
-                <td>Consoles e PC</td>
-                <td>Offline</td>
-                <td>8,8</td>
-            </tr>
-            <tr>
-                <td><strong>Terraria</strong></td>
-                <td>Sandbox / Sobrevivência 2D</td>
-                <td>16 de maio de 2011</td>
-                <td>Multiplataforma</td>
-                <td>Offline e Online</td>
-                <td>8,8</td>
-            </tr>
-        </tbody>
-    </table>
+                  <tr>   
+                    <th><img src="zeladafoto.jpg" width="60"></th>
+                    <th>The Legend of Zelda</th>
+                    <td>Aventura / RPG</td>
+                    <th>21 de novembro de 1998</th>
+                    <td>Nintendo</td>
+                    <th>9,9</th>
+                    <td>Offline</td>
+                </tr>
 
-    <h2>Donos das Plataformas</h2>
+                  <tr>   
+                    <th><img src= "tetrisfoto.jpg" width="70"></th>
+                    <th>Tetris</th>
+                    <td>Puzzle</td>
+                    <th>6 de junho de 1984</th>
+                    <th>Multi plataforma</th>
+                    <td>9.5</td>
+                    <td>Offline</td>
+                </tr>
+                </table><br>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Plataforma</th>
-                <th>Jogos Exclusivos / Destaques</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <a href="https://www.playstation.com/pt-br/ps5/" target="_blank">
-                        <img src="PYfoto.png" alt="PlayStation" width="100">
-                    </a>
-                </td>
-                <td>
-                    The Last of Us (Part I e Part II)<br><hr>
-                    Uncharted (franquia do Nathan Drake)<br><hr>
-                    Marvel's Spider-Man<br><hr>
-                    Gran Turismo<hr>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://www.xbox.com/pt-BR/" target="_blank">
-                        <img src="xbox.png" alt="Xbox" width="100">
-                    </a>
-                </td>
-                <td>
-                    Halo: Combat Evolved<br><hr>
-                    Forza Horizon 5<br><hr>
-                    Gears of War<br><hr>
-                    Sea of Thieves<hr>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://www.nintendo.com/pt-br/" target="_blank">
-                        <img src="nii.png" alt="Nintendo" width="100">
-                    </a>
-                </td>
-                <td>
-                    Super Mario Odyssey<br><hr>
-                    The Legend of Zelda: Breath of the Wild<br><hr>
-                    Pokémon Scarlet and Violet<br><hr>
-                    Super Smash Bros. Ultimate<hr>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+                <h2>Jogos Indies famosos</h2><br><br><br>
 
-</body>
+                <table border="4">
+
+                <tr bgcolor ="color: blck;">   
+                    <th bgcolor="#3F3F46">Jogo</th>
+                    <td bgcolor="#3F3F46">Gênero</td>
+                    <th bgcolor="#3F3F46">Ano de lançamento</th>
+                    <td bgcolor="#3F3F46">Plataforma</td>
+                    <td bgcolor="#3F3F46">Nota de 0 a 10</td>
+                    <td bgcolor="#3F3F46">Online ou Offline</td>
+                </tr>
+
+                  <tr>   
+                    <td>Hollow Knight</td>
+                    <td>Metroidvania / Ação</td>
+                    <th>Multi plataformas</th>
+                    <td>Offline</td>
+                    <td>24 de fevereiro de 2017</td>
+                    <td>9.0</td>
+                </tr>
+
+                  <tr>   
+                    <td>Stardew Valley</td>
+                    <td>Simulador de Fazenda / RPG</td>
+                    <td>26 de fevereiro de 2016</td>
+                    <td>Multi plataformas</td>
+                    <td>Offline e Online</td>
+                    <td>8.9</td>
+                </tr>
+
+                  <tr>   
+                    <td>Hades</td>
+                    <td>Roguelike / Ação</td>
+                    <td>17 de setembro de 2020</td>
+                    <td>Consoles e PC</td>
+                    <td>Offline</td>
+                    <td>9.4</td>
+                </tr>
+
+                  <tr>   
+                    <td>Dead Cells</td>
+                    <td>Roguelite / Metroidvania</td>
+                    <td>7 de agosto de 2018</td>
+                    <td>Multi plataformas</td>
+                    <td>Offline</td>
+                    <td>8.9</td>
+                </tr>
+
+                  <tr>   
+                    <td>Cuphead</td>
+                    <td>Run and Gun / Ação</td>
+                    <td>29 de setembro de 2017</td>
+                    <td>Consoles e PC</td>
+                    <td>Offline</td>
+                    <td>8.8</td>
+                </tr>
+
+                  <tr>   
+                    <td>Terraria</td>
+                    <td>Sandbox / Sobrevivência 2D</td>
+                    <td>16 de maio de 2011</td>
+                    <td>Multi plataformas</td>
+                    <td>Offline e Online</td>
+                    <td>8.8</td>
+            </tr>
+
+        </table><br><br>
+             <h2>Donos da plataformas</h2>
+
+                    <table border="4">
+
+            <tr>   
+                    <td><a href="https://www.playstation.com/pt-br/ps5/" target="_blank"><img src="PYfoto.png" width="100" ></a></td>
+
+            </tr>
+
+            <tr>  
+                    <td>The Last of Us (Part I e Part II)</td>
+            </tr>
+                    <td>Uncharted (franquia do Nathan Drake)</td>
+            <tr>
+                    <td>Marvel's Spider-Man</td>
+            </tr>
+
+            <tr>
+                      <td>Gran Turismo</td>
+            </tr>
+
+               </tr><br>   
+                 </table>
+                 <table border="4">
+
+
+             <td><a href="https://www.xbox.com/pt-BR/" target="_blank"><img src="xbox.png" width="100"></a></td><br><br><br>
+
+            <tr>  
+                    <td>Halo: Combat Evolved</td>
+            </tr>
+                    <td>Forza Horizon 5</td>
+            <tr>
+                    <td>Gears of War</td>
+            </tr>
+
+            <tr>
+                      <td>Sea of Thieves</td>
+            </tr>
+
+            </table><br><br><br>
+
+                 <table border="4">
+
+                <td><a href="https://www.nintendo.com/pt-br/" target="_blank"><img src="nii.png" width="100"></a></td>
+
+            <tr>  
+                    <td>Super Mario Odyssey</td>
+            </tr>
+                    <td>The Legend of Zelda: Breath of the Wild</td>
+            <tr>
+                    <td>Pokémon Scarlet and Violet</td>
+            </tr>
+
+            <tr>
+                      <td>Super Smash Bros. Ultimate</td>
+            </tr>
+
+            </table>
+
+            </body>
 </html>
