@@ -3,36 +3,36 @@
          <meta charset="UTC-8">
         <title>Minha tabela</title>
            
-            <style>
-                body{
-                    color: #fafafc;
-                    background-color: #121214
-                }
-                td{
-                  color:#3F3F46;
-                }
-                th, td{
-                  color: #fafafc;
-                }
-                
-            a:hover {
-                text-decoration: underline;
-                color: rgb(141, 100, 235);
-                font-size: 20px;
-                
-            }
-           
-                table{
-                    border: 4px solid #3F3F46;
-                    background-color: #1E1E24;
-                    border-collapse: collapse;
-                    width: 100%;
-                    margin-bottom: 20px;
-                    
-                }
-                
-                
-               </style>
+             <style>
+        body {
+            background-color: #222227;
+            color: #ffffff;
+        }
+
+        a:hover {
+            color: rgb(76, 27, 173);
+            font-size: 20px;
+        }
+
+        table {
+            border: 4px solid #3F3F46;
+            background-color: #1E1E24;
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #3F3F46;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3F3F46;
+            color: #FFFFFF;
+        }
+    </style>
                </head>
             <body>
     <ul><h1>Bem-vindo ao Jogos em Foco</h1></ul>
@@ -66,29 +66,29 @@
                 </tr>
 
                   <tr>   
-                    <th><img src="Robloxfoto.jpg" width="60"></th>
-                    <th>Roblox</th>
+                    <td><img src="Robloxfoto.jpg" width="60"></td>
+                    <td>Roblox</td>
                     <td>Sandbox</td>
                     <td>1º de setembro de 2006</td>
                     <td>PC e Celular</td>
-                    <th>7,5</th>
+                    <td>7,5</td>
                     <td>Online</td>
                 </tr>
 
                   <tr>   
-                    <th><img src ="minecraftfoto.jpg" width="60"></th>
+                    <td><img src ="minecraftfoto.jpg" width="60"></td>
 
-                       <th>Minecraft</th>
+                       <td>Minecraft</td>
                     <td>Sandbox / Sobrevivência</td>
                     <td>17 de maio de 2009</td>
                     <td>Multi plataforma</td>
-                    <th>9.0</th>
+                    <td>9.0</td>
                     <td>Online e Offline</td>
                 </tr>
 
                   <tr>   
-                    <th><img src ="gtafoto.jpg" width="70"></th>
-                    <th>(GTA V)</th>
+                    <td><img src ="gtafoto.jpg" width="70"></td>
+                    <td>(GTA V)</td>
                     <td>Ação e Mundo Aberto</td>
                     <td>17 de setembro de 2013</td>
                     <td>Pc e console</td>
@@ -97,31 +97,31 @@
                 </tr>
 
                   <tr>   
-                    <th><img src="fFOTO.jpg" width="70"></th>
-                    <th>Fortnite</th>
+                    <td><img src="fFOTO.jpg" width="70"></td>
+                    <td>Fortnite</td>
                     <td>Barttle Royale</td>
                     <td>25 de julho de 2017</td>
                     <td>Multi plataforma</td>
                     <td>8.0</td>
-                    <th>online</th>
+                    <td>online</td>
                 </tr>
 
                   <tr>   
-                    <th><img src="zeladafoto.jpg" width="60"></th>
-                    <th>The Legend of Zelda</th>
+                    <td><img src="zeladafoto.jpg" width="60"></td>
+                    <td>The Legend of Zelda</td>
                     <td>Aventura / RPG</td>
-                    <th>21 de novembro de 1998</th>
+                    <td>21 de novembro de 1998</td>
                     <td>Nintendo</td>
-                    <th>9,9</th>
+                    <td>9,9</td>
                     <td>Offline</td>
                 </tr>
 
                   <tr>   
-                    <th><img src= "tetrisfoto.jpg" width="70"></th>
-                    <th>Tetris</th>
+                    <td><img src= "tetrisfoto.jpg" width="70"></td>
+                    <td>Tetris</td>
                     <td>Puzzle</td>
-                    <th>6 de junho de 1984</th>
-                    <th>Multi plataforma</th>
+                    <td>6 de junho de 1984</td>
+                    <td>Multi plataforma</td>
                     <td>9.5</td>
                     <td>Offline</td>
                 </tr>
@@ -133,17 +133,17 @@
 
                 <tr bgcolor ="color: blck;">   
                     <th bgcolor="#3F3F46">Jogo</th>
-                    <td bgcolor="#3F3F46">Gênero</td>
+                    <th bgcolor="#3F3F46">Gênero</th>
                     <th bgcolor="#3F3F46">Ano de lançamento</th>
-                    <td bgcolor="#3F3F46">Plataforma</td>
-                    <td bgcolor="#3F3F46">Nota de 0 a 10</td>
-                    <td bgcolor="#3F3F46">Online ou Offline</td>
+                    <th bgcolor="#3F3F46">Plataforma</th>
+                    <th bgcolor="#3F3F46">Nota de 0 a 10</th>
+                    <th bgcolor="#3F3F46">Online ou Offline</th>
                 </tr>
 
                   <tr>   
                     <td>Hollow Knight</td>
                     <td>Metroidvania / Ação</td>
-                    <th>Multi plataformas</th>
+                    <td>Multi plataformas</td>
                     <td>Offline</td>
                     <td>24 de fevereiro de 2017</td>
                     <td>9.0</td>
@@ -199,7 +199,7 @@
 
                     <table border="4">
 
-            <tr>   
+            <tr> 
                     <td><a href="https://www.playstation.com/pt-br/ps5/" target="_blank"><img src="PYfoto.png" width="100" ></a></td>
 
             </tr>
@@ -220,7 +220,7 @@
                  </table>
                  <table border="4">
 
-
+                    
              <td><a href="https://www.xbox.com/pt-BR/" target="_blank"><img src="xbox.png" width="100"></a></td><br><br><br>
 
             <tr>  
