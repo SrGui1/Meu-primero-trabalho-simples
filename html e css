@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BOX</title>
+</head>
+<body>
+    <link rel="stylesheet" href="estilos.css">
+
+         <h1>Pedras</h1> 
+
+            <div class="box">
+            <h2>caucario</h2>
+            </div>
+            <div class="box">
+            <h2></h2>
+            </div>
+            <div class="box">
+            <h2></h2>
+            </div>
+            
+    
+</body>
+</html>
+
+==========================CSS===========================
+* { 
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+     background:#EE7621;
+}
+h1,h2,td,tr {
+    color:#EED8AE;
+}
+
+.box {
+    border:2px  #FFF8DC;
+    width: 350px;
+    height: 180px;
+    /*Maneira mais demorada
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    */
+    /*Maneira um pouco mais facil*/
+    margin: 10px 10px 20px 40px;
+    padding-right: 20px;
+
+
+
+}
