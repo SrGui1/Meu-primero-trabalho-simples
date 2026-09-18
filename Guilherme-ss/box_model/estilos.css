@@ -1,0 +1,26 @@
+* { 
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+     background:#EE7621;
+}
+h1,h2,td,tr {
+    color:#EED8AE;
+}
+
+.box {
+    border:2px  #FFF8DC;
+    width: 350px;
+    height: 180px;
+    /*Maneira mais demorada
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    */
+    /*Maneira um pouco mais facil*/
+    padding-right: 20px;
+}

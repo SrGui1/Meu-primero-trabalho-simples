@@ -1,0 +1,19 @@
+* { 
+    margin: 1%;
+    padding: 0%;
+}
+
+body {
+     background:#2c2b2a;
+}
+h1,h2{
+    color:#EED8AE;
+}
+
+.pedrinha {
+    border: 1px solid #f8f404;
+       
+}
+img {
+    width: 300;
+}

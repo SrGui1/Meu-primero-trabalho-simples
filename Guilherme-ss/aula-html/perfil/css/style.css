@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(134, 72, 65);
+   
+}
+
+p, li, h2{
+    color: rgb(219, 224, 194);
+}
+
+h1, p{
+    color: antiquewhite;
+     text-align: center;
+}
+.listas {
+    border: 3px solid rgb(247, 244, 244);
+    border-radius: 50px;
+    max-width: 20%;
+    margin: auto;
+     background-color:rgb(97, 7, 7) ;
+
+}
+
+.lista {
+    max-width: 250px;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+   
+}
+
+img {
+    margin-inline: 45% auto;
+    width: 200px;
+    height: 300px;
+}
+
+h1 {
+    background-color: rgb(97, 7, 7);
+}
